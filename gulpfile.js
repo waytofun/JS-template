@@ -7,8 +7,8 @@ var connect = require('gulp-connect');
 var open = require('gulp-open');
 
 var src = {
-	styles: 'app/styles/**/*.scss',
-	scripts: 'app/scripts/**/*.js',
+	styles: 'app/styles/*.scss',
+	scripts: 'app/*.js',
 	views: 'app/*.html'
 }
 var styleOutput = 'app/styles';
