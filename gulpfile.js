@@ -8,8 +8,8 @@ var open = require('gulp-open');
 
 var src = {
 	styles: 'app/styles/*.scss',
-	scripts: 'app/*.js',
-	views: 'app/*.html'
+	scripts: 'app/**/*.js',
+	views: 'app/**/*.html'
 }
 var styleOutput = 'app/styles';
 
